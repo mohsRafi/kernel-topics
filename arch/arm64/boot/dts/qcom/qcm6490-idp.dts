@@ -854,7 +854,6 @@
 	wcd937x_rx: codec@0,4 {
 		compatible = "sdw20217010a00";
 		reg = <0 4>;
-
 		/*
 		 * WCD9370 RX Port 1 (HPH_L/R)       <==>    SWR1 Port 1 (HPH_L/R)
 		 * WCD9370 RX Port 2 (CLSH)          <==>    SWR1 Port 2 (CLSH)
@@ -879,7 +878,6 @@
 	wcd937x_tx: codec@0,3 {
 		compatible = "sdw20217010a00";
 		reg = <0 3>;
-
 		/*
 		 * WCD9370 TX Port 1 (ADC1)               <=> SWR2 Port 2
 		 * WCD9370 TX Port 2 (ADC2, 3)            <=> SWR2 Port 2
