@@ -21,14 +21,6 @@ properties:
   reg:
     maxItems: 1
 
-  clocks:
-    items:
-      - description: System clock (SCKI)
-
-  clock-names:
-    items:
-      - const: sclk
-
   "#sound-dai-cells":
     const: 0
 
